@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Quiz Host</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🎤 Quiz Host</h1>
+<h2 id="question">Waiting to start…</h2>
+
+<button onclick="startBuzzerRound()">Start Buzzer Round</button>
+
+<h3>Buzz Order</h3>
+<ul id="buzzList"></ul>
+
+<button onclick="resetBuzzers()">Reset Buzzers</button>
+
+<script src="game.js"></script>
+<script>
+  initHost();
+</script>
+
+</body>
+</html>
